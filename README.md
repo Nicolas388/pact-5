@@ -28,7 +28,7 @@ If you are looking for legacy Pact, see [github.com/kadena-io/pact](https://gith
   - [Installing Pact Core](#installing-pact-core)
     - [Binary Downloads](#binary-downloads)
 	- [Building from Source](#building-from-source)
-	  - [Using the Nix Infrastructure (recommend)](#using-the-nix-infrastructure)
+	  - [Using the Nix Infrastructure (recommended)](#using-the-nix-infrastructure)
 	  - [Using Cabal and GHC](#using-cabal-and-ghc)
   - [Editor Integration (Language Server)](#editor-integration)
   - [License](#license)
@@ -40,7 +40,7 @@ If you are looking for legacy Pact, see [github.com/kadena-io/pact](https://gith
    ```bash
    chmod +x /path/to/pact
    ```
-3. (Optional) Add the path to your `$PATH` environment variable or adding the line to your shell profile.
+3. (Optional) Add the path to your `$PATH` environment variable by adding the line to your shell profile.
    ```bash
    export PATH=$PATH:/path/to/
    ```
@@ -49,7 +49,7 @@ If you are looking for legacy Pact, see [github.com/kadena-io/pact](https://gith
 ## Pact Core vs Pact
 Pact Core is a redevelopment of the Pact language, focusing on enhancing scalability, maintainability, and performance in response to increasingly complex demands from users and partners.
 
-Pact Core enables sustainable growth of the Pact featureset within the Kadena ecosystem by offering a more modular and maintainable internals, enabling the community to further develop and propose enhancements to the language and components that rely on it.
+Pact Core enables sustainable growth of the Pact feature set within the Kadena ecosystem by offering a more modular and maintainable internals, enabling the community to further develop and propose enhancements to the language and components that rely on it.
 
 Pact Core maintains semantic equivalence to Pact, aside from minor differences for security and performance. Existing code will behave the same as code written in (legacy) Pact. Breaking modifications will be communicated using the [Kadena Improvement Process](https://github.com/kadena-io/kips) (KIP) process.
 
